@@ -24,7 +24,7 @@ CREATE TABLE `UserNotifications` (
   `notification_id` int NOT NULL,
   `userId` int NOT NULL,
   `replied_user_id` int NOT NULL,
-  `action` int NOT NULL,
+  `type_action` int NOT NULL,
   `related_thread_id` int NOT NULL,
   `timestamp_submitted` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
