@@ -4,7 +4,7 @@
 	require_once $_SERVER["DOCUMENT_ROOT"].'/server/services/DatabaseConnector.class.php';
 
 
-	class NotificationController extends Controller {
+	class NotificationHandler extends Controller {
 		public function fetch(array $parameters) : array {
 			$dbConnection = (new DatabaseConnector())->getConnection();
 

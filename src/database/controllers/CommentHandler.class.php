@@ -3,7 +3,7 @@
 require_once $_SERVER["DOCUMENT_ROOT"].'/server/helpers/Controller.class.php';
 require_once $_SERVER["DOCUMENT_ROOT"].'/server/services/DatabaseConnector.class.php';
 
-class CommentController extends Controller {
+class CommentHandler extends Controller {
 
 	public function fetch(array $parameters) : array {
 		return array();
