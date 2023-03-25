@@ -1,7 +1,7 @@
 <?php 
 require_once $_SERVER["DOCUMENT_ROOT"].'/server/services/DatabaseConnector.class.php';
 
-class TokenHandler extends Controller {
+class TokenHandler extends Handler {
 		
 	/**
 	 * fetch

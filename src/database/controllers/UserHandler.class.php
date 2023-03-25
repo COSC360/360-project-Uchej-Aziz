@@ -4,7 +4,7 @@
 require_once $_SERVER["DOCUMENT_ROOT"].'/server/helpers/Controller.class.php';
 require_once $_SERVER["DOCUMENT_ROOT"].'/server/controllers/TokenController.class.php';
 
-class UserHandler extends Controller {
+class UserHandler extends Handler {
 		
 	/**
 	 * getRegistered

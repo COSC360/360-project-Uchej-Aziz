@@ -4,7 +4,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/server/helpers/Controller.class.php';
 require_once $_SERVER["DOCUMENT_ROOT"].'/server/controllers/UserController.class.php';
 require_once $_SERVER["DOCUMENT_ROOT"].'/server/services/DatabaseConnector.class.php';
 
-class ThreadHandler extends Controller {
+class ThreadHandler extends Handler {
   public function fetch(array $parameters) : array {
 		return array();
 	}
