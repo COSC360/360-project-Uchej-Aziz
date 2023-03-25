@@ -4,7 +4,7 @@
 	require_once $_SERVER["DOCUMENT_ROOT"].'/server/services/DatabaseConnector.class.php';
 
 
-	class AdminHandler extends Controller {
+	class AdminHandler extends Handler {
 		public function fetch(array $parameters) : array {
 			return array();
 		}
