@@ -122,15 +122,15 @@ class TokenHandler extends Controller {
 		return array("response" => 200);
 	}
 
-	public function discard(array $parameters) : array {
-		return array();
-	}
-
 	public function getById(int $id) : array {
 		return array();
 	}
 
 	public function getAll(array $parameters) : array {
+		return array();
+	}
+	
+	public function discard(array $parameters) : array {
 		return array();
 	}
 }
