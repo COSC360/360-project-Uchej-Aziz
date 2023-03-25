@@ -4,7 +4,7 @@ require_once $_SERVER["DOCUMENT_ROOT"].'/server/services/DatabaseConnector.class
 class TokenHandler extends Controller {
 		
 	/**
-	 * get
+	 * fetch
 	 *
 	 * @param  array $parameters
 	 * @return array
@@ -106,7 +106,7 @@ class TokenHandler extends Controller {
 			$hash = '';
 			
 			for($i = 0; $i < 10; $i++)
-				$hash .= $charSet[mt_rand(0, 61)];
+				$hash .= $charSet[mt_rand(0, 43)];
 					
 			$password_hash = hash('sha256', $parameters[0] . $hash);
 
