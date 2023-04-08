@@ -3,6 +3,8 @@
 
 ### This folder contains all the relevant project documentation
 
+> Take note that the final report and final project walkthrough are in two separate files
+
 Group Members:
 AbdulAziz Almutlaq - 79960175
 Onwuvuche Jordan Chukwuka - 61007530
