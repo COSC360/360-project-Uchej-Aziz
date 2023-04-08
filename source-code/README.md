@@ -1,0 +1,1 @@
+### Feel free to browse the folders. You can find the client side code in the 'client' folder, the database files inside the 'database' folder and the server side files inside the 'server' folder.
